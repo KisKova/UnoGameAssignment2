@@ -19,7 +19,7 @@ import { useGameStore } from '../store/gameStore';
 import { useRouter } from 'vue-router';
 const router = useRouter();
 
-console.log('GameSetup component initialized'); // Add this line
+console.log('GameSetup component initialized'); //s Add this line
 
 const gameStore = useGameStore();
 const playerName = ref('');
